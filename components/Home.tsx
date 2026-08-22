@@ -43,7 +43,7 @@ export default function Home() {
           
 
           {/* Name */}
-          <h1 className="text-5xl font-medium tracking-[-0.04em] sm:text-6xl md:text-7xl lg:text-8xl">
+          <h1 className="whitespace-nowrap text-5xl font-medium tracking-[-0.04em] sm:text-6xl md:text-7xl lg:text-8xl">
             Niraj Vishwakarma
           </h1>
 
