@@ -9,6 +9,6 @@ export const siteConfig = {
     github: "https://github.com/Niraj-03",
     linkedin: "https://www.linkedin.com/in/niraj-v/",
     instagram: "https://www.instagram.com/niraj.v_/",
-    x: "https://x.com/Niraj_v",
+    twitter: "https://x.com/Niraj_v",
   },
 };

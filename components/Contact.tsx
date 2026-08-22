@@ -1,6 +1,6 @@
 "use client";
 
-import { Mail, Send, Copy, Check, Linkedin, MapPin, Github, Instagram, X } from "lucide-react";
+import { Mail, Send, Copy, Check, Linkedin, MapPin, Github, Instagram, Twitter } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChangeEvent, FormEvent, useState } from "react";
 import { siteConfig } from "@/app/lib/site-config";
@@ -98,7 +98,7 @@ export default function Contact() {
                   <Instagram className="h-5 w-5 text-slate-500 transition-colors group-hover:text-[#E1306C]" />
                   Instagram
                 </a>
-                <a href={siteConfig.social.x || "#"} className="group flex items-center gap-3 rounded-2xl border border-white/10 bg-[#020617]/70 p-4 text-sm font-medium text-slate-300 transition-all hover:border-white/40 hover:bg-white/10 hover:text-white" target="_blank" rel="noreferrer">
+                <a href={siteConfig.social.twitter || "#"} className="group flex items-center gap-3 rounded-2xl border border-white/10 bg-[#020617]/70 p-4 text-sm font-medium text-slate-300 transition-all hover:border-white/40 hover:bg-white/10 hover:text-white" target="_blank" rel="noreferrer">
                   <Twitter className="h-5 w-5 text-slate-500 transition-colors group-hover:text-white" />
                   X
                 </a>
