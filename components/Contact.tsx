@@ -1,6 +1,6 @@
 "use client";
 
-import { Mail, Send, Copy, Check, Linkedin, MapPin, Github } from "lucide-react";
+import { Mail, Send, Copy, Check, Linkedin, MapPin, Github, Instagram } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChangeEvent, FormEvent, useState } from "react";
 import { siteConfig } from "@/app/lib/site-config";
@@ -93,6 +93,10 @@ export default function Contact() {
                 <a href={siteConfig.social.linkedin} className="group flex items-center gap-3 rounded-2xl border border-white/10 bg-[#020617]/70 p-4 text-sm font-medium text-slate-300 transition-all hover:border-[#3B82F6]/40 hover:bg-[#3B82F6]/10 hover:text-white" target="_blank" rel="noreferrer">
                   <Linkedin className="h-5 w-5 text-slate-500 transition-colors group-hover:text-[#0A66C2]" />
                   LinkedIn
+                </a>
+                <a href={siteConfig.social.instagram || "#"} className="group flex items-center gap-3 rounded-2xl border border-white/10 bg-[#020617]/70 p-4 text-sm font-medium text-slate-300 transition-all hover:border-[#E1306C]/40 hover:bg-[#E1306C]/10 hover:text-white" target="_blank" rel="noreferrer">
+                  <Instagram className="h-5 w-5 text-slate-500 transition-colors group-hover:text-[#E1306C]" />
+                  Instagram
                 </a>
               </div>
 
