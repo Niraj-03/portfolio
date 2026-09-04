@@ -10,7 +10,6 @@ const projectsData = [
     description: "An AI-powered assistant layered with a retrieval pipeline for grounded conversations and rich context handling.",
     tags: ["Python", "Gemini API", "RAG"],
     demo: "https://github.com/Niraj-03/ChatFlow",
-    repo: "https://github.com/Niraj-03/ChatFlow",
     glow: "from-[#3B82F6]/20",
   },
   {
